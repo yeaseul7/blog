@@ -5,7 +5,6 @@ type Capsule = {
   summary: string;
   img: string;
   path: string;
-  component: React.ReactNode;
 };
 
 type CapsuleGridProps = {

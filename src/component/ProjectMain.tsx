@@ -8,7 +8,6 @@ type Capsule = {
   summary: string;
   img: string;
   path: string;
-  component: JSX.Element;
 };
 type SubMenu = {
   name: string;
