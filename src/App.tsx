@@ -30,6 +30,7 @@ function App() {
         </div>
         <div id="main">
           <Routes>
+            <Route path="/" element={<PageModule type="introMd" />} />
             {menuList.map((menu, index) => (
               <Route
                 key={index}

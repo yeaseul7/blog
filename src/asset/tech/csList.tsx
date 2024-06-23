@@ -8,20 +8,17 @@ export const csList = [
     summary: "InterpreterAndCompiler",
     img: "https://via.placeholder.com/150",
     path: "/tech/cs/markdown/introMd",
-    component: <PageModule />,
   },
   {
     title: "InterpreterAndCompiler",
     summary: "InterpreterAndCompiler",
     img: "https://via.placeholder.com/150",
     path: "/tech/cs/markdown/introMd",
-    component: <PageModule />,
   },
   {
     title: "InterpreterAndCompiler",
     summary: "InterpreterAndCompiler",
     img: "https://via.placeholder.com/150",
     path: "/tech/cs/markdown/introMd",
-    component: <PageModule />,
   },
 ];
