@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
 import "./style/main.css";
 import { menuList } from "./asset/menuList";
+import PageModule from "./component/pageModule";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           id="sideMenu"
           className="flex flex-row items-center justify-around w-screen border-b shadow"
         >
-          <h2 className="m-4 ml-12 text-2xl font-semibold">SSaong Blog</h2>
+          <h2 className="m-4 ml-12 text-2xl font-semibold">Neeko Blog</h2>
           <div className="flex gap-4">
             {menuList.map((menu, index) => (
               <Link
@@ -23,8 +24,8 @@ function App() {
                 {menu.name}
               </Link>
             ))}
-            <button className="linkStyle">테마</button>
-            <button className="linkStyle">검색</button>
+            {/* <button className="linkStyle">테마</button> */}
+            {/* <button className="linkStyle">검색</button> */}
           </div>
         </div>
         <div id="main">
@@ -36,6 +37,10 @@ function App() {
                 element={<menu.Component />}
               />
             ))}
+            <Route
+              path="/:type/:category/markdown/:name"
+              element={<PageModule />}
+            />
           </Routes>
         </div>
       </div>

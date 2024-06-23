@@ -44,7 +44,6 @@
 }
 #main {
   width: 100vw;
-  height: 90%;
   display: flex;
   justify-content: center;
 }
@@ -52,9 +51,7 @@
   display: flex;
   justify-content: center;
 }
-#sideMenu {
-  height: 10%;
-}
+
 #root,
 #page {
   height: 100%;
