@@ -7,7 +7,7 @@ export const csList = [
     title: "InterpreterAndCompiler",
     summary: "InterpreterAndCompiler",
     img: "https://via.placeholder.com/150",
-    path: "/tech/cs/markdown/introMd",
+    path: "/tech/cs/markdown/InterpreterAndCompiler",
   },
   {
     title: "InterpreterAndCompiler",
