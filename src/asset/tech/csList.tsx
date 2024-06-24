@@ -1,4 +1,3 @@
-import path from "path";
 import PageModule from "../../component/pageModule";
 import { introMd } from "../markdown/intro/introMD";
 
