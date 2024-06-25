@@ -1,5 +1,6 @@
 // src/asset/markdown/index.js
 import { introMd } from "./intro/introMD";
+import { gdsc } from "./retrospect/2023/gdsc";
 import { InterpreterAndCompiler } from "./tech/cs/interpreterAndCompiler";
 interface MarkdownMap {
   [key: string]: string; // 인덱스 시그니처 추가
@@ -7,5 +8,6 @@ interface MarkdownMap {
 export const markdownMap: MarkdownMap = {
   introMd,
   InterpreterAndCompiler,
+  gdsc,
   // 다른 Markdown 파일들도 여기에 추가
 };

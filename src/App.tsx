@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
 import "./style/main.css";
 import { menuList } from "./asset/menuList";
 import PageModule from "./component/pageModule";
+// import ReactGA from "react-ga";
 
 function App() {
   return (
@@ -39,7 +40,7 @@ function App() {
               />
             ))}
             <Route
-              path="/:type/:category/markdown/:name"
+              path="/:type/:category/markdown/:name/:img"
               element={<PageModule />}
             />
           </Routes>

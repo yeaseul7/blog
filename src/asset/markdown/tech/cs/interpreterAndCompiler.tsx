@@ -1,4 +1,5 @@
 export const InterpreterAndCompiler = `
+
 컴퓨터는 binary system 으로 된 프로그램만 이해한다.
 그래서 우리는 컴퓨터를 이해시키기 위해 interpreter와 compiler를 사용한다.
 
@@ -78,4 +79,7 @@ byte대신에 포인터를 이용하는 interpreter
 참고하면 좋을 링크입니다.
 
 [프로그래밍 언어론](https://chayan-memorias.tistory.com/96)
+
+---
+_작성 일자 : 2024.06.24_
 `;

@@ -1,5 +1,6 @@
 import PageModule from "../component/pageModule";
 import ProjectMain from "../component/ProjectMain";
+import { list2023 } from "./retrospect/list2023";
 
 import { csList } from "./tech/csList";
 import { nextList } from "./tech/nextList";
@@ -8,7 +9,7 @@ import { reactList } from "./tech/reactList";
 export const menuList = [
   {
     name: "About",
-    path: "/blogInro/markdown/introMd",
+    path: "/blogInro/markdown/introMd/undefined",
     Component: () => <PageModule />,
   },
   {
@@ -55,9 +56,9 @@ export const algorithmMenuList = [
   { name: "Programmers", path: "/algorithm/programmers/*", list: csList },
 ];
 export const retrospectMenuList = [
-  { name: "2021", path: "/retrospect/2021/*", list: csList },
-  { name: "2020", path: "/retrospect/2020/*", list: csList },
-  { name: "2019", path: "/retrospect/2019/*", list: csList },
+  { name: "2022", path: "/retrospect/2022/*", list: list2023 },
+  { name: "2023", path: "/retrospect/2023/*", list: list2023 },
+  { name: "2024", path: "/retrospect/2024/*", list: list2023 },
 ];
 export const projectMenuList = [
   { name: "Project1", path: "/project/project1/*", list: csList },

@@ -20,12 +20,12 @@ function CapsuleGrid({ componentList }: CapsuleGridProps) {
           id="capsule"
           onClick={() => navigate(capsule.path)}
           key={index}
-          className="border border-gray-300 rounded-lg shadow-sm w-80"
+          className="border border-gray-300 rounded-lg shadow-sm w-80 overflow-hidden p-3 "
         >
           <div id="imgFrame">
             <img
               src={capsule.img}
-              alt="error"
+              alt={capsule.title}
               className="absolute top-0 left-0 object-cover w-full h-full"
             />
           </div>

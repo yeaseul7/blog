@@ -15,6 +15,15 @@ export const introMd = `
 
 ![yeaseulGithub잔디](https://ghchart.rshah.org/yeaseul7)
 
+  2024.03~  
+  #### 퀄리소프트
+  Work.  
+  - javascript 기반 CRM 개발  
+  - Azure 이용한 node.js 서버 구축  
+
+  javascript, node.js, azure  
+  
+
   2023.12~2024.03
   #### 투인피니티(인턴)🐣  
   Work.
@@ -31,14 +40,7 @@ export const introMd = `
 
   java, flutter, firebase  
 
-  2024.03~  
-  #### 퀄리소프트
-  Work.  
-  - javascript 기반 CRM 개발  
-  - Azure 이용한 node.js 서버 구축  
 
-  javascript, node.js, azure  
-  
   ---  
   해당 블로그는 **React, TypeScript, TailwindCSS, Node.js**를 사용하여 제작하였습니다.  
   `;
