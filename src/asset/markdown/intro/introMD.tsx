@@ -41,6 +41,5 @@ export const introMd = `
   java, flutter, firebase  
 
 
-  ---  
   해당 블로그는 **React, TypeScript, TailwindCSS, Node.js**를 사용하여 제작하였습니다.  
   `;

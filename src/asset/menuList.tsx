@@ -5,6 +5,7 @@ import { list2023 } from "./retrospect/list2023";
 import { csList } from "./tech/csList";
 import { nextList } from "./tech/nextList";
 import { reactList } from "./tech/reactList";
+import { webList } from "./tech/webList";
 
 export const menuList = [
   {
@@ -42,8 +43,9 @@ export const textMenuList = [
   { name: "Computer Science", path: "/tech/cs/*", list: csList },
   { name: "React", path: "/tech/react/*", list: reactList },
   { name: "Next.js", path: "/tech/next/*", list: nextList },
-  { name: "Web", path: "/tech/web/*", list: csList },
+  { name: "Web", path: "/tech/web/*", list: webList },
   { name: "Node.js", path: "/tech/node/*", list: csList },
+  { name: "javascript", path: "/tech/javascript/*", list: csList },
 ];
 export const reviewMenuList = [
   { name: "Book", path: "/review/book/*", list: csList },

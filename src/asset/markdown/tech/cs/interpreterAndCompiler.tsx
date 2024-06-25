@@ -80,6 +80,5 @@ byte대신에 포인터를 이용하는 interpreter
 
 [프로그래밍 언어론](https://chayan-memorias.tistory.com/96)
 
----
 _작성 일자 : 2024.06.24_
 `;

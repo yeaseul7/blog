@@ -44,6 +44,7 @@ const PageModule: React.FC<PageModuleProps> = ({ type, img }) => {
           {markdownContent}
         </ReactMarkdown>
       </div>
+      <hr />
       <Comment />
     </div>
   );
