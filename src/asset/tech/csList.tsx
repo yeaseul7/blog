@@ -8,16 +8,4 @@ export const csList = [
     img: "/images/InterpreterAndCompiler.png",
     path: "/tech/cs/markdown/InterpreterAndCompiler/InterpreterAndCompiler",
   },
-  {
-    title: "InterpreterAndCompiler",
-    summary: "InterpreterAndCompiler",
-    img: "https://via.placeholder.com/150",
-    path: "/tech/cs/markdown/introMd",
-  },
-  {
-    title: "InterpreterAndCompiler",
-    summary: "InterpreterAndCompiler",
-    img: "https://via.placeholder.com/150",
-    path: "/tech/cs/markdown/introMd",
-  },
 ];

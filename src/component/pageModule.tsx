@@ -19,9 +19,9 @@ const PageModule: React.FC<PageModuleProps> = ({ type, img }) => {
 
   useEffect(() => {
     let content = markdownMap[pageSagment];
-    console.log("imgSagment", imgSagment);
 
     let img = imgSagment ? `/images/${imgSagment}.png` : "";
+    console.log(img, "img");
 
     setImgSrc(img || "");
     if (type) {

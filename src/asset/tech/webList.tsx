@@ -1,5 +1,3 @@
-import PageModule from "../../component/pageModule";
-
 export const webList = [
   {
     title: "DocumentAndHTML",
