@@ -1,5 +1,6 @@
 import PageModule from "../component/pageModule";
 import ProjectMain from "../component/ProjectMain";
+import { programersList } from "./algorithm/programers";
 import { list2023 } from "./retrospect/list2023";
 import { list2024 } from "./retrospect/list2024";
 import { javascriptBook } from "./Review/javascriptBook";
@@ -58,8 +59,12 @@ export const reviewMenuList = [
   // { name: "Book3", path: "/review/book3/*", list: csList },
 ];
 export const algorithmMenuList = [
-  { name: "Baekjoon", path: "/algorithm/baekjoon/*", list: csList },
-  { name: "Programmers", path: "/algorithm/programmers/*", list: csList },
+  // { name: "Baekjoon", path: "/algorithm/baekjoon/*", list: csList },
+  {
+    name: "Programmers",
+    path: "/algorithm/programmers/*",
+    list: programersList,
+  },
 ];
 export const retrospectMenuList = [
   { name: "2023", path: "/retrospect/2023/*", list: list2023 },
