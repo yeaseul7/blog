@@ -51,6 +51,7 @@ export const textMenuList = [
   { name: "Web", path: "/tech/web/*", list: webList },
   { name: "Node.js", path: "/tech/node/*", list: nodeList },
   { name: "javascript", path: "/tech/javascript/*", list: javascriptList },
+  { name: "azure", path: "/tech/azure/*", list: javascriptList },
 ];
 export const reviewMenuList = [
   { name: "javascriptBook", path: "/review/book/*", list: javascriptBook },
