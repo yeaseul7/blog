@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import "./style/main.css";
 import { menuList } from "./asset/menuList";
@@ -7,7 +7,7 @@ import PageModule from "./component/pageModule";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div id="page" className="flex flex-col w-screen App">
         <div
           id="sideMenu"
@@ -45,7 +45,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
