@@ -1,6 +1,7 @@
 // src/asset/markdown/index.js
 import { Recursion } from "./algorithm/recursion";
 import { introMd } from "./intro/introMD";
+import { notfoundError } from "./project/blog/notfoundError";
 import { gdsc } from "./retrospect/2023/gdsc";
 import { AzureFunctions } from "./tech/azure/AzureFunctions";
 import { InterpreterAndCompiler } from "./tech/cs/interpreterAndCompiler";
@@ -15,5 +16,6 @@ export const markdownMap: MarkdownMap = {
   DocumentAndHTML,
   Recursion,
   AzureFunctions,
+  notfoundError,
   // 다른 Markdown 파일들도 여기에 추가
 };

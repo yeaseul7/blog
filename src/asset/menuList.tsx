@@ -1,6 +1,7 @@
 import PageModule from "../component/pageModule";
 import ProjectMain from "../component/ProjectMain";
 import { programersList } from "./algorithm/programers";
+import { projectList } from "./projects/projectList";
 import { list2023 } from "./retrospect/list2023";
 import { list2024 } from "./retrospect/list2024";
 import { javascriptBook } from "./Review/javascriptBook";
@@ -39,12 +40,13 @@ export const menuList = [
     path: "/retrospect/*",
     Component: () => <ProjectMain subMenuList={retrospectMenuList} />,
   },
-  // {
-  //   name: "Project",
-  //   path: "/project/*",
-  //   Component: () => <ProjectMain subMenuList={projectMenuList} />,
-  // },
+  {
+    name: "Project",
+    path: "/project/*",
+    Component: () => <ProjectMain subMenuList={projectMenuList} />,
+  },
 ];
+
 export const textMenuList = [
   { name: "Computer Science", path: "/tech/cs/*", list: csList },
   { name: "React", path: "/tech/react/*", list: reactList },
@@ -71,4 +73,7 @@ export const algorithmMenuList = [
 export const retrospectMenuList = [
   { name: "2023", path: "/retrospect/2023/*", list: list2023 },
   { name: "2024", path: "/retrospect/2024/*", list: list2024 },
+];
+export const projectMenuList = [
+  { name: "blog", path: "/project/blog/*", list: projectList },
 ];
