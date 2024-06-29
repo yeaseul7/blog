@@ -1,11 +1,4 @@
-import React, { useEffect } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Link,
-  BrowserRouter,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
 import "./style/main.css";
 import { menuList } from "./asset/menuList";
@@ -14,7 +7,7 @@ import PageModule from "./component/pageModule";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div id="page" className="flex flex-col w-screen App">
         <div
           id="sideMenu"
@@ -52,7 +45,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
