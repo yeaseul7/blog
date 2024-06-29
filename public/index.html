@@ -40,6 +40,21 @@
 
     gtag("config", "G-5F6BZMYPBK");
   </script>
+  <script type="text/javascript">
+    var segments = location.pathname.split("/").filter(function (e) {
+      return e;
+    });
+    var redirect = "/";
+    if (segments.length > 1) {
+      var pathSegmentsToKeep = 1;
+      redirect += segments.slice(pathSegmentsToKeep).join("/");
+    }
+    redirect += location.search;
+    redirect += location.hash;
+    if (window.location.pathname !== redirect) {
+      window.location.replace(redirect);
+    }
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
