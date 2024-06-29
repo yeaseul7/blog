@@ -14,7 +14,7 @@ import PageModule from "./component/pageModule";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/yeaseul7.github.io">
       <div id="page" className="flex flex-col w-screen App">
         <div
           id="sideMenu"
@@ -52,7 +52,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
