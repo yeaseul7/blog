@@ -14,7 +14,7 @@ import PageModule from "./component/pageModule";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <div id="page" className="flex flex-col w-screen App">
         <div
           id="sideMenu"

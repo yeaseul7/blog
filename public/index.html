@@ -4,25 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React App</title>
-    <base href="/neekoBlog/" />
-    <script type="text/javascript">
-      var segments = location.pathname.split("/").filter(function (e) {
-        return e;
-      });
-      var redirect = "/neekoBlog/";
-      if (segments.length > 1) {
-        var pathSegmentsToKeep = 1;
-        redirect += segments.slice(pathSegmentsToKeep).join("/");
-      }
-      redirect += location.search;
-      redirect += location.hash;
-      if (
-        window.location.pathname !== redirect &&
-        !location.search.includes("redirected=true")
-      ) {
-        window.location.replace(redirect + "?redirected=true");
-      }
-    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
