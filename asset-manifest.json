@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/neekoBlog/static/css/main.53fdcfc4.css",
-    "main.js": "/neekoBlog/static/js/main.3b77f818.js",
+    "main.js": "/neekoBlog/static/js/main.8ec58dfb.js",
     "static/js/453.c5823c6e.chunk.js": "/neekoBlog/static/js/453.c5823c6e.chunk.js",
     "index.html": "/neekoBlog/index.html",
     "main.53fdcfc4.css.map": "/neekoBlog/static/css/main.53fdcfc4.css.map",
-    "main.3b77f818.js.map": "/neekoBlog/static/js/main.3b77f818.js.map",
+    "main.8ec58dfb.js.map": "/neekoBlog/static/js/main.8ec58dfb.js.map",
     "453.c5823c6e.chunk.js.map": "/neekoBlog/static/js/453.c5823c6e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53fdcfc4.css",
-    "static/js/main.3b77f818.js"
+    "static/js/main.8ec58dfb.js"
   ]
 }
