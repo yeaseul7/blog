@@ -16,10 +16,10 @@
       redirect += location.search;
       redirect += location.hash;
       if (
-        location.pathname !== redirect &&
+        window.location.pathname !== redirect &&
         !location.search.includes("redirected=true")
       ) {
-        location.replace(redirect + "?redirected=true");
+        window.location.replace(redirect + "?redirected=true");
       }
     </script>
   </head>
