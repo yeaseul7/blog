@@ -4,6 +4,7 @@ import { programersList } from "./algorithm/programers";
 import { list2023 } from "./retrospect/list2023";
 import { list2024 } from "./retrospect/list2024";
 import { javascriptBook } from "./Review/javascriptBook";
+import { azureList } from "./tech/azureList";
 
 import { csList } from "./tech/csList";
 import { javascriptList } from "./tech/javascriptList";
@@ -51,7 +52,7 @@ export const textMenuList = [
   { name: "Web", path: "/tech/web/*", list: webList },
   { name: "Node.js", path: "/tech/node/*", list: nodeList },
   { name: "javascript", path: "/tech/javascript/*", list: javascriptList },
-  { name: "azure", path: "/tech/azure/*", list: javascriptList },
+  { name: "azure", path: "/tech/azure/*", list: azureList },
 ];
 export const reviewMenuList = [
   { name: "javascriptBook", path: "/review/book/*", list: javascriptBook },

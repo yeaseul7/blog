@@ -31,7 +31,7 @@ interpreter언어는 initial tanslator를 보유한다.
 
 (속닥) javascript는 원래 interpreter언어였지만 성능상의 Just In Time 컴파일을 사용한다.
 
-<hr>
+---
 
 ## compiler와 Interpreter의 종류
 
@@ -75,7 +75,7 @@ byte대신에 포인터를 이용하는 interpreter
 - **Just-in-time compiler**
 - **AOT compilation → 런타임 전에 컴파일하는 방식(Angular)**
 
-<hr>
+---
 참고하면 좋을 링크입니다.
 
 [프로그래밍 언어론](https://chayan-memorias.tistory.com/96)

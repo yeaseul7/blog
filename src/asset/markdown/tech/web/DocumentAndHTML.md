@@ -29,12 +29,14 @@ document의 노드
 
 애초에 DOM은 프로그래밍 언어랑 독립적으로 디자인 되었다.
 
-### DOM
+---
+
+### DOM API
 
 Document Object Model Application Programming Interface
 Document Object Model을 사용하기 위한 명령들의 집합
 
-api를 사용할 때 알아야 하는 data types
+#### api를 사용할 때 알아야 하는 data types
 
 - documents
 - element
@@ -42,19 +44,33 @@ api를 사용할 때 알아야 하는 data types
 - attribute
 - namedNodeMap
 
-<!-- 개발자 모드로 브라우저에 들어가서 html을 찍어 보면
-html의 parentNode가 Document인 것을 알 수 있다.
+각 타입에 자세한 내용은 [mdn](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction)을 참고하기를 바란다.
 
-![Dom](https://www.w3schools.com/js/pic_htmltree.gif)
-그러면 Documnet 아래에 html이 있는 DOM 구조가 이해될 것이다.
-위의 그림을 DOM Tree라고 하는데
-우리가 흔하게 알고 있는 HTML의 구조를 트리 형태로 표현한것이라고 간단하게 이해할 수 있다.
+### DOM interface
 
+DOM interface에는 `HTMLFormElement` interface 나 `HTMLElement`등 많은 interface가 존재한다.
+각 interface와 object들은 헷갈리는 관계를 가지고 있다.
 
-Dom에 있는 모든 객체는 js로 조작이 가능하다.
+Mdn에서 소개하는 핵심
 
-그리고 각각의 노드에는 다양한 프로퍼티들이 존재하기에 text도 추가할 수 있고 넓이를 바꾼다거나 조작이 가능하다.
+Document 와 window objects는 가장 자주 사용되는 object이다.
+Document = root Document 그 자체 (콘솔에서 확인할 수 있다.)
+window = 브라우저 그 자체
 
-[HTML명세서](https://html.spec.whatwg.org/#introduction)를 확인해보면 모든 콘텐츠는 body 안에 있어야 한다고 한다.
+**그밖에 자주 사용되는 list**
 
-따라서 body 안에 있는 모든 공백은 다른 문서와 마찬가지로 텍스트 노드가 된다. -->
+- document.getElementById(id)
+- document.getElementsByTagName(name)
+- document.createElement(name)
+- parentNode.appendChild(node)
+- element.innerHTML
+- element.style.left
+- element.setAttribute
+- element.getAttribute
+- element.addEventListener
+- window.content
+- window.onload
+- window.dump
+- window.scrollTo
+
+출처 : [DOM 소개](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction)
