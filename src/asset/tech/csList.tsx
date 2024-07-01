@@ -5,7 +5,7 @@ export const csList = [
   {
     title: "InterpreterAndCompiler",
     summary: "InterpreterAndCompiler",
-    img: "/images/InterpreterAndCompiler.png",
+    img: "https://yeaseul7.github.io/neekoBlog/images/sqljoin.png",
     path: "/tech/cs/markdown/InterpreterAndCompiler/InterpreterAndCompiler",
   },
 ];

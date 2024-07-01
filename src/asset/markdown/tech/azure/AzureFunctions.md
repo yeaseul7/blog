@@ -15,7 +15,7 @@ Azure Functions는 더 적은 코드를 쓰고, 인프라를 적게 유지하고
 따라서 이부분에 있어서는 맞는 공식문서를 잘 참조해야한다.
 
 모든 함수는 시작되는 방법과 트리거가 필요하다.
-또한 **필요에 따라** 입출력 바인딩을 정할 수 있다.([SDK를 따로 설치하지 않아도 되된다고 한다.](https://learn.microsoft.com/ko-kr/azure/azure-functions/functions-triggers-bindings?tabs=isolated-process%2Cpython-v2&pivots=programming-language-javascript))
+또한 **필요에 따라** 입출력 바인딩을 정할 수 있다.([SDK를 따로 설치하지 않아도 된다고 한다.](https://learn.microsoft.com/ko-kr/azure/azure-functions/functions-triggers-bindings?tabs=isolated-process%2Cpython-v2&pivots=programming-language-javascript))
 
 ---
 

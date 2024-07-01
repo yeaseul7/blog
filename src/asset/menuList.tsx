@@ -12,6 +12,7 @@ import { javascriptList } from "./tech/javascriptList";
 import { nextList } from "./tech/nextList";
 import { nodeList } from "./tech/nodeList";
 import { reactList } from "./tech/reactList";
+import { sqlList } from "./tech/sqlList";
 import { webList } from "./tech/webList";
 
 export const menuList = [
@@ -23,7 +24,7 @@ export const menuList = [
   {
     name: "Tech",
     path: "/tech/*",
-    Component: () => <ProjectMain subMenuList={textMenuList} />,
+    Component: () => <ProjectMain subMenuList={tectMenuList} />,
   },
   {
     name: "Review",
@@ -47,7 +48,7 @@ export const menuList = [
   },
 ];
 
-export const textMenuList = [
+export const tectMenuList = [
   { name: "Computer Science", path: "/tech/cs/*", list: csList },
   { name: "React", path: "/tech/react/*", list: reactList },
   { name: "Next.js", path: "/tech/next/*", list: nextList },
@@ -55,6 +56,7 @@ export const textMenuList = [
   { name: "Node.js", path: "/tech/node/*", list: nodeList },
   { name: "javascript", path: "/tech/javascript/*", list: javascriptList },
   { name: "azure", path: "/tech/azure/*", list: azureList },
+  { name: "sql", path: "/tech/sql/*", list: sqlList },
 ];
 export const reviewMenuList = [
   { name: "javascriptBook", path: "/review/book/*", list: javascriptBook },
