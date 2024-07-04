@@ -17,7 +17,7 @@ compiler > interpreter
 **실행 시간**
 compiler < interpreter(느림)
 
-<hr />
+---
 
 **차이점이 존재하는데 서로를 포함할 수 있다고?**
 

@@ -1,8 +1,6 @@
 export const Join = `
 ## JOIN
 
-![SQL 벤다이어그램](https://shinsangeun.github.io/static/01e7e9696ef5bb2fd340206dea656d4f/cc661/join.webp)
-
 #### INNER JOIN
 
 테이블 간의 교집합이라고 보면 된다.
@@ -59,6 +57,7 @@ SELECT * FROM table1, table2;
 #### SELF JOIN
 
 한 테이블 내의 row끼리 어떤 계산을 할 때 유용하다.
+
 자기 자신과의 CROSS JOIN이라고 보면 된다.
 
 \`\`\`sql
@@ -67,7 +66,7 @@ FROM table1 ALIAS_1, table2 ALIAS_2
 WHERE ALIAS1.column_name = ALIAS_2.column_name;
 \`\`\`
 
-#### FULL OUTER JOIM
+#### FULL OUTER JOIN
 
 A와 B의 합집합
 
