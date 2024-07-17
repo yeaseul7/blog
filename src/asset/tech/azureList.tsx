@@ -5,4 +5,16 @@ export const azureList = [
     img: "https://yeaseul7.github.io/neekoBlog/images/azurefunctions.png",
     path: "/tech/azure/markdown/AzureFunctions/azurefunctions",
   },
+  {
+    title: "Ms Retrieve Data",
+    summary: "Ms Retrieve Data 예시 ",
+    img: "https://yeaseul7.github.io/neekoBlog/images/azurefunctions.png",
+    path: "/tech/azure/markdown/MsRetrieveData/azurefunctions",
+  },
+  {
+    title: "Node.js AWS 배포하기",
+    summary: "AWS Free tier Node.js 배포하기",
+    img: "https://yeaseul7.github.io/neekoBlog/images/awsImage.png",
+    path: "/tech/azure/markdown/NodeAWS/awsImage",
+  },
 ];
