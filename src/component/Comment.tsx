@@ -5,12 +5,14 @@ const Comment = () => {
   const isMounted = useRef(false); // useRef를 사용하여 마운트 상태를 관리
 
   useEffect(() => {
+    console.log(isMounted, "isMounted");
+
     if (!isMounted.current) {
       // 첫 실행 때만 실행
       const scriptEl = document.createElement("script");
       scriptEl.async = true;
       scriptEl.src = "https://utteranc.es/client.js";
-      scriptEl.setAttribute("repo", "yeaseul7/yeaseul7.github.io");
+      scriptEl.setAttribute("repo", "yeaseul7/neekoBlog");
       scriptEl.setAttribute("issue-term", "pathname");
       scriptEl.setAttribute("theme", "github-light");
       scriptEl.setAttribute("crossorigin", "anonymous");
@@ -21,6 +23,7 @@ const Comment = () => {
 
   return (
     <div>
+      댓글
       <div ref={commentsEl} />
     </div>
   );

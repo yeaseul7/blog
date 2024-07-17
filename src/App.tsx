@@ -13,7 +13,9 @@ function App() {
           id="sideMenu"
           className="flex flex-row items-center justify-around w-screen border-b shadow"
         >
-          <h2 className="m-4 ml-12 text-2xl font-semibold">Neeko Blog</h2>
+          <Link to="/">
+            <h2 className="m-4 ml-12 text-2xl font-semibold">Neeko Blog</h2>
+          </Link>
           <div className="flex gap-4">
             {menuList.map((menu, index) => (
               <Link
