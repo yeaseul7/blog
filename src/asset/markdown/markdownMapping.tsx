@@ -8,6 +8,7 @@ import { MsRetrieveData } from "./tech/azure/MsRetrieveData";
 import { NodeAWS } from "./tech/azure/NodeAWS";
 import { InterpreterAndCompiler } from "./tech/cs/interpreterAndCompiler";
 import { Join } from "./tech/sql/join";
+import { CsrAndSeo } from "./tech/web/CsrAndSeo";
 import { DocumentAndHTML } from "./tech/web/DocumentAndHTML";
 interface MarkdownMap {
   [key: string]: string; // 인덱스 시그니처 추가
@@ -23,5 +24,6 @@ export const markdownMap: MarkdownMap = {
   Join,
   MsRetrieveData,
   NodeAWS,
+  CsrAndSeo,
   // 다른 Markdown 파일들도 여기에 추가
 };
