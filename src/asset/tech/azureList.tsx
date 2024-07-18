@@ -17,4 +17,10 @@ export const azureList = [
     img: "https://yeaseul7.github.io/neekoBlog/images/awsImage.png",
     path: "/tech/azure/markdown/NodeAWS/awsImage",
   },
+  {
+    title: "Microsoft Fabric이란?",
+    summary: "Microsoft Fabric에 대하여",
+    img: "https://yeaseul7.github.io/neekoBlog/images/msFabric.png",
+    path: "/tech/azure/markdown/MsFabric/msFabric",
+  },
 ];
