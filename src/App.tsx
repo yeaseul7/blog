@@ -3,17 +3,9 @@ import "./App.css";
 import "./style/main.css";
 import { menuList } from "./asset/menuList";
 import PageModule from "./component/pageModule";
-import SEOMetaTag from "./SEOMetaTag";
 // import ReactGA from "react-ga";
 
 function App() {
-  const seoData = {
-    title: "NeekoBlog",
-    description: "Neeko의 기술 블로그 입니다.",
-    keywords: "Neeko, Blog, React, Typescript",
-    imgsrc: "https://yeaseul7.github.io/neekoBlog/images/profile-64.png",
-    url: "https://yeaseul7.github.io/neekoBlog/*",
-  };
   return (
     <div id="page" className="flex flex-col w-screen App">
       <div
@@ -38,13 +30,6 @@ function App() {
         </div>
       </div>
       <div id="main">
-        <SEOMetaTag
-          title={seoData.title}
-          description={seoData.description}
-          keywords={seoData.keywords}
-          imgsrc={seoData.imgsrc}
-          url={seoData.url}
-        />
         <Routes>
           <Route path="/" element={<PageModule type="introMd" />} />
           {menuList.map((menu, index) => (
