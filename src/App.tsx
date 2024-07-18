@@ -8,10 +8,10 @@ import SEOMetaTag from "./SEOMetaTag";
 
 function App() {
   const seoData = {
-    title: "NeekoBlog Home",
-    description: "이 페이지는 Neeko Blog 소개 입니다.",
+    title: "NeekoBlog",
+    description: "Neeko의 기술 블로그 입니다.",
     keywords: "Neeko, Blog, React, Typescript",
-    imgsrc: "https://yeaseul7.github.io/neekoBlog/profile.png",
+    imgsrc: "https://yeaseul7.github.io/neekoBlog/images/profile-64.png",
     url: "https://yeaseul7.github.io/neekoBlog/*",
   };
   return (
