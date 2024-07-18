@@ -14,13 +14,13 @@ type CapsuleGridProps = {
 function CapsuleGrid({ componentList }: CapsuleGridProps) {
   const navigate = useNavigate();
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
       {componentList.map((capsule, index) => (
         <div
           id="capsule"
           onClick={() => navigate(capsule.path)}
           key={index}
-          className="border border-gray-300 rounded-lg shadow-sm w-80 overflow-hidden p-3 "
+          className="w-64 p-3 overflow-hidden border border-gray-300 rounded-lg shadow-sm "
         >
           <div id="imgFrame">
             <img

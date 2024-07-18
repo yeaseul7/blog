@@ -23,7 +23,6 @@ const PageModule: React.FC<PageModuleProps> = ({ type, img }) => {
     let img = imgSagment
       ? `https://yeaseul7.github.io/neekoBlog/images/${imgSagment}.png`
       : "";
-    console.log(img, "img");
 
     setImgSrc(img || "");
     if (type) {
@@ -34,14 +33,14 @@ const PageModule: React.FC<PageModuleProps> = ({ type, img }) => {
   }, [pageSagment]);
 
   return (
-    <div className="m-4 prose" id="capsule">
+    <div className="w-full p-8 m-4 prose" id="capsule">
       {imgSrc && (
         <div className="text-center">
           <img src={imgSrc} alt="img" className="rounded-lg" />
         </div>
       )}
 
-      <div className="text-left markdown-body">
+      <div className="text-left markdown-body ">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>
           {markdownContent}
         </ReactMarkdown>

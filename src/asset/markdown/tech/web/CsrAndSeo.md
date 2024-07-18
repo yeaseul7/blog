@@ -76,3 +76,5 @@ pre-rendered 하게 되면 웹 크롤러가 볼 수 있도록 페이지의 모�
 react-snap은 React를 빌드한 후 미리 렌더링 된 HTML 스냅샷을 생성해서 정적 파일로 저장한다.
 
 하지만 이 라이브러리는 유지보수가 끝났기 때문에 오류를 잡기 힘들 수 있다.
+
+[참고 사이트](https://velog.io/@byseop/SPA%EC%97%90%EC%84%9C-%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C-%EB%A0%8C%EB%8D%94%EB%A7%81%EC%9D%84-%EA%B5%AC%EC%B6%95%ED%95%98%EC%A7%80-%EC%95%8A%EA%B3%A0-SEO-%EC%B5%9C%EC%A0%81%ED%99%94%ED%95%98%EA%B8%B0)

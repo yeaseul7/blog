@@ -30,8 +30,8 @@ const ProjectMain = ({ subMenuList }: ProjectMainProps) => {
 
   return (
     <div className="rounded-lg">
-      <div className="flex justify-center h-auto mx-auto my-5">
-        <ul className="flex space-x-4">
+      <div className="h-auto m-auto mx-auto my-5 ">
+        <ul className="space-x-4">
           {subMenuList.map((subMenu: SubMenu, index: number) => (
             <li key={index} className="inline-block">
               <button

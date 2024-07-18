@@ -11,12 +11,12 @@ function App() {
       <div id="page" className="flex flex-col w-screen App">
         <div
           id="sideMenu"
-          className="flex flex-row items-center justify-around w-screen border-b shadow"
+          className="flex flex-col items-center justify-around w-screen border-b shadow sm:flex-row"
         >
           <Link to="/">
             <h2 className="m-4 ml-12 text-2xl font-semibold">Neeko Blog</h2>
           </Link>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap justify-center gap-2 p-2 sm:flex-row">
             {menuList.map((menu, index) => (
               <Link
                 to={menu.path}
