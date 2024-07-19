@@ -3,7 +3,6 @@ import "./App.css";
 import "./style/main.css";
 import { menuList } from "./asset/menuList";
 import PageModule from "./component/pageModule";
-// import ReactGA from "react-ga";
 
 function App() {
   return (
@@ -25,8 +24,6 @@ function App() {
               {menu.name}
             </Link>
           ))}
-          {/* <button className="linkStyle">테마</button> */}
-          {/* <button className="linkStyle">검색</button> */}
         </div>
       </div>
       <div id="main">
