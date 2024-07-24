@@ -5,4 +5,10 @@ export const projectList = [
     img: "https://yeaseul7.github.io/neekoBlog/images/resursionImg.png",
     path: "/project/blog/markdown/notfoundError/resursionImg",
   },
+  {
+    title: "Next.js로 build하기",
+    summary: "Next.js와 typescript를 사용해서 블로그 build하기",
+    img: "https://yeaseul7.github.io/neekoBlog/images/resursionImg.png",
+    path: "/project/blog/markdown/Nextbuild/next",
+  },
 ];

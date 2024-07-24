@@ -8,6 +8,7 @@ import { javascriptBook } from "./Review/javascriptBook";
 import { azureList } from "./tech/azureList";
 
 import { csList } from "./tech/csList";
+import { developList } from "./tech/developList";
 import { javascriptList } from "./tech/javascriptList";
 import { nextList } from "./tech/nextList";
 import { nodeList } from "./tech/nodeList";
@@ -57,6 +58,7 @@ export const tectMenuList = [
   { name: "javascript", path: "/tech/javascript/*", list: javascriptList },
   { name: "azure", path: "/tech/azure/*", list: azureList },
   { name: "sql", path: "/tech/sql/*", list: sqlList },
+  { name: "develop", path: "/tech/develop/*", list: developList },
 ];
 export const reviewMenuList = [
   { name: "javascriptBook", path: "/review/book/*", list: javascriptBook },
